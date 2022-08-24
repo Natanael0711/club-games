@@ -1,9 +1,13 @@
 <template>
-  <Tutorial/>
+  <nuxt-link to="/select-your-player">
+      <button>
+          Click Here
+      </button>
+  </nuxt-link>
 </template>
 
-<script>
+<!-- <script>
 export default {
   name: 'IndexPage'
 }
-</script>
+</script> -->
