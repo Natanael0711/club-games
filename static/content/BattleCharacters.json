@@ -1,0 +1,121 @@
+
+    {
+        "characters": [
+            {
+                "name": "kiryu",
+                "strength": "50",
+                "velocity": "40",
+                "critical": "50",
+                "image": "kiryu.png",
+                "zoom": "200%",
+                "justifyC": "50%",
+                "borderColor": "var(--light)",
+                "crest":"tojo-clan.png"
+            },
+            {
+                "name": "majima",
+                "strength": "40",
+                "velocity": "50",
+                "critical": "50",
+                "image": "majima.png",
+                "zoom": "150%",
+                "justifyC": "50%",
+                "borderColor": "var(--dark)",
+                "crest":"tojo-clan.png"
+            },
+            {
+                "name": "nishiki",
+                "strength": "40",
+                "velocity": "35",
+                "critical": "25",
+                "image": "nishiki.png",
+                "zoom": "150%",
+                "justifyC": "50%",
+                "borderColor": "darkred",
+                "crest":"tojo-clan.png"
+            },
+            {
+                "name": "shibusawa",
+                "strength": "45",
+                "velocity": "20",
+                "critical": "40",
+                "image": "shibusawa.png",
+                "zoom": "150%",
+                "justifyC": "50%",
+                "borderColor": "var(--gray)",
+                "crest":"tojo-clan.png"
+            },
+            {
+                "name": "awano",
+                "strength": "45",
+                "velocity": "20",
+                "critical": "35",
+                "image": "awano.png",
+                "zoom": "200%",
+                "justifyC": "20%",
+                "borderColor": "var(--purple)",
+                "crest":"tojo-clan.png"
+
+            },
+            {
+                "name": "sagawa",
+                "strength": "10",
+                "velocity": "10",
+                "critical": "50",
+                "image": "sagawa.png",
+                "zoom": "150%",
+                "justifyC": "50%",
+                "borderColor": "var(--orange)",
+                "crest":"omi-alliance.png"
+
+            },
+            {
+                "name": "nishitani",
+                "strength": "35",
+                "velocity": "40",
+                "critical": "50",
+                "image": "nishitani.png",
+                "zoom": "250%",
+                "justifyC": "50%",
+                "borderColor": "var(--red)",
+                "crest":"omi-alliance.png"
+
+            },
+            {
+                "name": "watase",
+                "strength": "30",
+                "velocity": "10",
+                "critical": "30",
+                "image": "watase.png",
+                "zoom": "150%",
+                "justifyC": "50%",
+                "borderColor": "var(--yellow)",
+                "crest":"omi-alliance.png"
+
+            },
+            {
+                "name": "fulano",
+                "strength": "25",
+                "velocity": "25",
+                "critical": "25",
+                "image": "fulano.png",
+                "zoom": "150%",
+                "justifyC": "50%",
+                "borderColor": "var(--blue)",
+                "crest":"omi-alliance.png"
+
+            },
+            {
+                "name": "ryuji",
+                "strength": "50",
+                "velocity": "45",
+                "critical": "45",
+                "image": "ryuji-goda.png",
+                "zoom": "200%",
+                "justifyC": "50%",
+                "borderColor": "var(--teal)",
+                "crest":"omi-alliance.png"
+
+            }
+        ]
+    }

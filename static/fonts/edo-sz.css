@@ -1,0 +1,21 @@
+/* @font-face {
+    font-family: 'edo-sz';
+    src: url('EdoSZ.woff2') format('woff2'),
+        url('EdoSZ.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'edo-sz';
+    src: url('EdoSZ.eot');
+    src: url('EdoSZ.eot?#iefix') format('embedded-opentype'),
+        url('EdoSZ.woff2') format('woff2'),
+        url('EdoSZ.woff') format('woff'),
+        url('EdoSZ.ttf') format('truetype'),
+        url('EdoSZ.svg#EdoSZ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    /* font-display: swap; */
+}
