@@ -63,8 +63,8 @@
                         clearInterval(interval)
                     }
 
-                    this.onChange(this.diceFace)
                     choice++;
+                    this.onChange(this.diceFace)
                 }, 70)
             }
         }

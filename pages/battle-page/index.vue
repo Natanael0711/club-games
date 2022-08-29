@@ -1,5 +1,6 @@
 <template>
-    <b-container>
+    <div>
+        <b-container>
         <b-row>
             <b-col class="center-container text-show">
                 <h1>Página de batalha</h1>
@@ -40,11 +41,6 @@
                     :on-change="(face) => {dice1 = face}"
                 />
 
-                <button class="btn btn-lg btn-danger"
-                    @click="turnOnOff = !turnOnOff, timer()"
-                >
-                    Play dice!
-                </button>
             </b-col>
 
 
@@ -53,7 +49,7 @@
                     {{dice1}} | {{dice2}}
                 </p>
 
-                <div v-if="time != 0">
+                <div v-if="time != 0" style="margin-bottom: -16%">
                     <div v-if="dice1 > dice2">
                         <h1>
                             Jogador 1 venceu!
@@ -71,6 +67,13 @@
                     </div>
                 </div>
 
+                <button class="btn btn-lg btn-danger" 
+                    @click="turnOnOff = !turnOnOff, timer()"
+                    style="margin-top: 40%;"
+                >
+                    Play dice!
+                </button>
+
             </b-col>
 
 
@@ -82,11 +85,6 @@
                     :on-change="(face) => {dice2 = face}"
                 />
 
-                <button class="btn btn-lg btn-danger" 
-                    @click="turnOnOff = !turnOnOff, timer()"
-                >
-                    Play dice!
-                </button>
             </b-col>
 
         </b-row>
@@ -96,9 +94,23 @@
                 
             </b-col>
         </b-row> -->
-
     </b-container>
+        <div style=" width: 99vw; position: absolute; overflow: hidden; top: 0%; z-index: -2;">
+            <Fire style="width: 115vw; left: -5%;"/>
+        </div>
+    </div>
 </template>
+<!-- <script>
+
+import Fire from '@/components/Fire.vue'
+
+export default {
+    components: {
+        Fire
+    }
+
+}
+</script> -->
 
 <style lang="scss" scoped>
     .center-container{

@@ -29,6 +29,12 @@
         width: 100px;
         background-size: 90%!important;
         box-shadow: 0px 4px 8px rgba(31, 31, 31, 0.24);
+        &:hover{
+            border: 5px solid red;
+        }
+        &:focus{
+            border: 5px solid blue;
+        }
     }
     .text-content{
         padding: 0;
