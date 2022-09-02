@@ -1,10 +1,10 @@
 <template>
         <b-container>
-        <b-row>
+        <!-- <b-row>
             <b-col>
                 <button @click="checkRepeatedDices">Logar dados</button>
             </b-col>
-        </b-row>
+        </b-row> -->
         <b-row>
             <b-col>
                 <YatchList :condition="4" :valueProp="dice1"/>
@@ -31,11 +31,11 @@
         </b-row>
         <b-row>
             <b-col lg="12">
-                <button class="btn btn-lg btn-danger"
+                <!-- <button class="btn btn-lg btn-danger"
                     @click="showMatrix('Lets dye')"
                 >
                     Log
-                </button>
+                </button> -->
                 <!-- <button class="btn btn-lg btn-danger"
                     @click="showMatrix(diceArray[round][index])"
                 >
